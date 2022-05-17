@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Finance</title>
+    <meta name="description" content="WineDefi is the new Defi of the Binance Smart Chain network where you can earn the UAT Token within the Pools ... This token will rise in value by 0.2% daily, and can only be exchanged within the same website.">
+    <link rel="Shortcut Icon" href="https://uat.bar/img\POT&#32;WINE&#32;2.png">
+    <script src="https://uat.bar/js\jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <script src="https://uat.bar/js\jquery.onepage-scroll.min.js"></script>
+    <link rel="stylesheet" href="https://uat.bar/css\onepage-scroll.css">
+    <link rel="stylesheet" href="https://uat.bar/css\bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://uat.bar/css\style.css">
+    <link rel="stylesheet" href="https://uat.bar/css\iziToast.min.css">
+    
+    <script src="https://uat.bar/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js" integrity="sha512-aUhL2xOCrpLEuGD5f6tgHbLYEXRpYZ8G5yD+WlFrXrPy2IrWBlu6bih5C9H6qGsgqnU6mgx6KtU8TreHpASprw==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+
+    
+
+
+
+
+
+    <div id="tsparticles"></div>
+
+
+    <aside class="sidebar">
+        <div class="sidebar__logo">
+            <img width="200px" src="https://uat.bar/img\logo.png" alt="Logo">
+        </div>
+
+        <div class="sidebar__nav">
+            <ul class="nav__list onepage-pagination en-translate">
+                <li>
+                    <a data-index="1" class="nav__link active" href="index.html#1" id="">HOME</a>
+                </li>
+                <li>
+
+                    <a data-index="2" class="nav__link" href="index.html#2">POOLS</a>
+                </li>
+                <li>
+
+                    <a data-index="3" class="nav__link" href="index.html#3">REFERRAL</a>
+                </li>
+                <li>
+
+                    <a data-index="4" class="nav__link" href="index.html#4">ABOUT TOKEN</a>
+                </li>
+                <li>
+
+                    <a data-index="5" class="nav__link" href="index.html#5">EXCHANGE</a>
+                </li>
+                <li>
+
+                    <a data-index="6" class="nav__link" href="index.html#6">LOTTERY</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <div class="sidebar__footer">
+            <div class="footer__social">
+                
+
+
+                
+                <a href="https://twitter.com/DefiUAT" target="_blank" class="footer__social--link"><img width="40px" src="https://uat.bar/img\twitter.svg" alt="" class="social__icons"></a>
+                
+
+
+                <!-- Telegram chat list -->
+                <ul class="footer__social-menu footer--telegram">
+                    <li class="footer__link-language">
+
+                        <a href="https://t.me/uatswap"><img width="40px" src="https://uat.bar/img\icons\telega.svg" alt="" class="social__icons"></a>
+                    </li>
+                </ul>
+                <!-- Telegram chat list - END -->
+
+
+                
+
+                <!-- <a href="" class="footer__social--link"><img width="40px" src="img/icons/skype.svg" alt="" class="social__icons"></a> -->
+                <a href="https://uat-finance.gitbook.io/uat-finance"><img width="40px" src="https://uat.bar/img\icons\core.svg" alt="" class="social__icons"></a>
+                <a id="gmail-link" class="footer__social--link" style="cursor:pointer;"><img width="40px" src="https://uat.bar/img\icons\gmail.svg" alt="" class="social__icons"></a>
+                <input id="gmail-link-copy" value="uatdefi@uat.bar" style="display:none">
+                
+                
+
+
+            </div>
+            <div class="footer__copy en-translate" style="color: rgb(124, 10, 10);">"UAT Finance" all rights reserved © 2021"</div>
+            
+        </div>
+    </aside>
+
+    <div class="top__panel">
+
+        <div class="burger__menu">
+            <div class="burger"></div>
+        </div>
+
+
+
+        <div class="top__panel-btns">
+            <a href="KnownsecSecurity.pdf" target="_blank"><button class="top__panel-btn en-translate"> AUDIT BY KNOWNSEC</button></a>
+            <a href="https://bscscan.com/address/0x7a336c166Dd0Aa6e69AE212E0052E97035DFf825#code" target="_blank" class="mobile--dnone"><button class="top__panel-btn en-translate">CONTRACT </button></a>
+            <!-- Выпадающее меню в верхней панели -->
+            <ul class="presentation__menu en-translate">
+                <li>
+                    <a target="_blank">
+                        <button class="top__panel-btn presentation__hover-btn">
+                            PRESENTATION PDF
+                        </button>
+                    </a>
+
+                    <div class="presentation__hover-menu">
+                        <a href="https://www.youtube.com/watch?v=btB__oHQ0sU" target="_blank" class="presentation__hover-link">
+                            <button class="top__panel-btn">ENGLISH PDF</button>
+                        
+                        
+                        <a href="https://www.youtube.com/watch?v=btB__oHQ0sU" target="_blank" class="presentation__hover-link">
+                            <button class="top__panel-btn">SPANISH PDF</button>
+                        </a>
+                        
+                    </div>
+                </li>
+            </ul>
+           
+            
+           
+            <button class="top__panel-btn en-translate" style="background-color: #F3D31C; color: #4D4B42;" id="connect-wallet" onclick="Connect()">CONNECT WALLET</button>
+            
+        </div>
+        <div class="top__panel-total ">
+            <b>TOTAL INVESTED IN THE PROJECT:</b> <span id="total-invested">... BNB</span>
+        </div>
+
+        
+    </div>
+
+
+    <div class="right__panel">
+        <div class="home__time">
+            <!-- <img width="26px" src="img/icons/time.svg" alt="">
+            <div class="home__time-date"><span class="home__time-date-t"></span><br><span
+                    class="home__time-date-d"></span></div> -->
+        </div>
+
+        
+
+        <div class="home__slide-number">
+            <span class="home__slide-num">01</span><span>/06</span>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="main">
+
+        <section class="home">
+
+            <div class="home__about en-translate">
+                <h2 class="home__about-title">About UAT Finance</h2>
+                <div class="home__about-text">
+                    <p>UAT Finance is a new DeFi platform on the Binance Smart Chain network. The UAT Finance platform aims to bring a high yield to all users and provide everyone with an independent financial support fund, based on Smart Contract technology.</p>
+                    <p>The UAT Finance exists as a decentralized entity, built upon the BSC blockchain. UAT Finance is initiated, driven and developed by the community. All of the functionalities will be implemented by smart contracts and developed based on community needs and initiatives.</p>
+                    <p>Stake BNB, earn UAT and stake UAT again. That is the way to wealth.</p>
+                </div>
+                <ul class="onepage-pagination home__about-btn">
+                    <li>
+                        <a data-index="2" href="index.html#2" class="btn-yellow">STAKE NOW</a>
+                    </li>
+                </ul>
+ 
+            </div>
+
+            
+
+            
+
+            <div class="home__slider">
+
+                <div class="home__stat">
+                    <div class="home__stat-total en-translate">
+                        Total staked<br>
+                        <span class="stat__total-number" id="total-staked">...</span><span class="stat__total-suptxt"> BNB</span>
+                    </div>
+                   
+
+                    
+
+                    <div class="home__stat-value en-translate">
+                        Token value<br>
+                        1 UAT = <span class="stat__total-number" id="soda-price-bnb">...</span><span class="stat__total-suptxt"> BNB</span><br>
+                        1 UAT = <span class="stat__total-number" id="soda-price-usd">...</span><span class="stat__total-suptxt"> USDT</span>
+                    </div>
+                   
+                </div>
+                
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- <div class="bottle__inner">
+                                tron-soda
+                                <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                                earn:<br>soda
+                            </div> -->
+                            <img src="https://uat.bar/img\BOTELLA&#32;1-2.png" width="440px" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <div class="bottle__inner">
+                                soda-soda
+                                <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                                earn:<br>soda
+                            </div> -->
+                            <img src="https://uat.bar/img\bottle-green.png" style="width: 495px;" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+
+               
+
+                
+
+            </div>
+            
+
+            <div class="home__right en-translate">
+                
+                <h2 class="home__referral-title">Referral program</h2>
+                <div class="home__referral-text">
+                    <p>Our platform is open to all comers, and we really appreciate the desire of our participants to spread the ideology of our community among friends, collegues and mates.</p>
+                    <p>Get additional bonuses by inviting people to our platform and earn through the referral program up to 20 levels deep! </p>
+                </div>
+                <ul class="onepage-pagination home__referral-btn">
+                    <li> <a data-index="3" href="index.html#3">YOUR REFERRAL</a></li>
+                </ul>
+
+            </div>
+
+            
+
+        </section>
+
+        <section class="pools">
+
+            <div class="pools__cards">
+
+                <div class="pools__cards-item ">
+
+
+                    <!-- <div class="bottle__inner bottle__inner-1">
+                        tron-soda
+                        <div class="bottle__inner-circle bottle__inner-circle-1">apr:<br>217.85%</div>
+                        earn:<br>soda
+                    </div> -->
+                    <img class="pools__cards-bootle" src="https://uat.bar/img\BOTELLA&#32;1-2.png" alt="">
+
+
+
+
+
+                    <h3 class="pools__cards-title">bnb-UAT </h3>
+                    <div class="pools__cards-count">
+                        Core
+                        <div class="pools__cards-number">20X</div>
+                    </div>
+
+                    <div class="pools__cards-txt">APR: <span>365%</span></div>
+                    <div class="pools__cards-txt">Earn: <span>UAT</span></div>
+
+                    <label>UAT earned: <input value="0" id="user-bnb-pool-soda-pending" class="pools__cards-input" type="number"></label>
+                    <button class="pools__cards-btn" id="harvest-bnb-pool">HARVEST</button>
+
+                    <div class="pools__cards-txt">YOU STAKED: <span id="user-bnb-investments">... BNB</span></div>
+                    <div class="pools__cards-txt">TOTAL STAKED: <span id="total-pool-staked">... BNB</span></div>
+                </div>
+
+
+
+
+                <div class="pools__cards-item">
+
+
+
+                    <!-- <div class="bottle__inner bottle__inner-2">
+                        soda-soda
+                        <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                        earn:<br>soda
+                    </div> -->
+                    <img class="pools__cards-bootle" src="https://uat.bar/img\bottle-green.png" alt="">
+
+
+
+                    <h3 class="pools__cards-title">UAT-UAT </h3>
+                    <div class="pools__cards-count">
+                        Core
+                        <div class="pools__cards-number">20X</div>
+                    </div>
+
+                    <div class="pools__cards-txt">APR: <span>438%</span></div>
+                    <div class="pools__cards-txt">Earn: <span>UAT</span></div>
+
+                    <label>UAT earned: <input value="0" id="user-soda-pool-soda-pending" class="pools__cards-input" type="number"></label>
+                    <button class="pools__cards-btn" id="harvest-soda-pool">HARVEST</button>
+
+                    <div class="pools__cards-txt">YOU STAKED: <span id="user-soda-investments">... UAT</span></div>
+                    <div class="pools__cards-txt">TOTAL STAKED: <span id="total-soda-staked">... UAT</span></div>
+                </div>
+
+
+
+                <div class="pools__cards-item">
+                    <img class="pools__cards-item-calc" src="https://uat.bar/img\icons\calcul_big.svg" alt="">
+                    <div class="pools__cards-txt">Choose a bottle:</div>
+                    <div class="pools__cards-choose-btns">
+                        <label><input checked="" type="radio" name="btn-choose" class="pools__cards-choose-btn">
+                            <div class="pools__div-1"><img src="https://uat.bar/img\CORCHO&#32;4.png" style="width: 85px; height: 85px;"><span></span></div>
+                        </label>
+                        <label><input type="radio" name="btn-choose" class="pools__cards-choose-btn">
+                            <div class="pools__div-2"><img src="https://uat.bar/img\CORCHO&#32;3.png" style="width: 90px; height: 90px;"><span></span></div>
+                        </label>
+                    </div>
+
+                    <label>Enter amount: <input value="0" class="pools__cards-input" type="number" id="calculate-input">
+                    <span id="user-balance">⠀⠀⠀⠀⠀</span>
+                    </label>
+                    
+
+                    
+                    <div class="pools__cards-txt pools__cards-txt-calc-1" style="left:10px">Daily: <span id="daily-profit">0.00
+                            <span>UAT</span></span></div>
+                    <div class="pools__cards-txt pools__cards-txt-calc-2" style="left:10px">Weekly: <span id="total-profit">0.00
+                            <span>UAT</span></span></div>
+                    <button class="pools__cards-btn pools__cards-btn-calc" id="stake-btn">STAKE bnb</button>
+                    <button class="pools__cards-btn pools__cards-btn-unstake" id="unstake-btn">UNSTAKE UAT</button>
+               
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="referral">
+            <div class="referral__inner">
+                <h2 class="referral__title en-translate">REFERRAL PROGRAM</h2>
+                
+                <div class="referral__perc en-translate">20 levels <button class="btn-yellow" type="button" data-bs-toggle="modal" data-bs-target="#modal__referral">MORE DETAILS</button> </div>
+                 
+                <div class="referral__text en-translate">
+                   
+                    <p>Get additional bonuses by inviting people to our platform and earn through the referral program up to 20 levels deep! </p>
+                    <p>Rewards is calculated after your partner`s withdrawal in UAT tokens , based on referral rate of each level. Then you can swap your UAT to BNB at any time or stake it in UAT-UAT pool, increasing your daily income. Pretty profitable, isn`t it? </p>
+                </div>
+
+                
+                <label class="en-translate">Your referral link:<input type="text" class="referral__link" value="..." id="ref-link"></label>
+                
+
+                <div class="referral__input-btns">
+                    <button class="referral__btn-copy en-translate" onclick="copyToClipboard('#ref-link')">COPY LINK</button>
+                    
+
+                        
+                </div>
+                <div class="referral__rewards en-translate">Total referrals: <span id="total-referrals">...</span></div>
+                    
+                        <div class="referral__rewards en-translate" style="margin-top:10px">Earned: <span id="referral-earned">...<span> UAT</span></span></div>
+                       
+                <div class="referral__rewards en-translate">Available rewards: <span id="ref-earnings">...<span> UAT</span></span></div>
+                
+                <button class="btn-yellow referral__rewards-btn en-translate" id="claim-referral-reward">CLAIM REWARD</button>
+               
+
+            </div>
+
+
+            <img class="referral__bg" src="https://uat.bar/img\REFERAL.png" alt="">
+        </section>
+
+        
+       
+       
+
+        <section class="about">
+            <div class="about__inner">
+                <h2 class="about__title en-translate">ABOUT TOKEN</h2>
+                
+                <div class="about__text en-translate">
+                    <p>
+                    <p>The UAT Finance token UAT is a BEP20 token that originally launched on Binance Smart Chain. You can store it in any wallet that supports the BSC network and send / receive UAT like any other coin.</p>
+                    <p>The price of the UAT token is fixed by the contract and only grows by 0.2% daily (by 6% every month). The initial price is 0.1 BNB per 1 UAT.</p>
+                    <p>The token can be obtained only through the staking procedure in one of the pools or through the referral program. You can swap UAT to BNB at any time at exchange`s section.</p>
+                    <p>UAT is used to enter a lottery on WineDeFi. Each lottery session takes 12 hours. 10% of each collection of rewards in the pools goes towards buying tickets. After 12 hours, the contract chooses the winner and pays him 90% of the game`s pot.</p>
+                </div>
+
+                
+                <ul class="onepage-pagination home__about-btn">
+                    <li>
+                        <a data-index="2" href="index.html#2" class="btn-yellow">STAKE NOW</a>
+                    </li>
+                </ul>
+            </div>
+            <img class="about__bg" src="https://uat.bar/img\coins.png" alt="">
+        </section>
+
+        <section class="exchange">
+            <div class="exchange__inner">
+                <h2 class="exchange__title en-translate">EXCHANGE</h2>
+                
+                <div class="exchange__text en-translate">
+                    <p>In this section, you can swap UAT to BNB at any time at the current rate.</p>
+                </div>
+
+               
+                
+                <label>UAT:<input type="number" class="exchange__input" value="0.0" id="exchange-soda"></label>
+                
+                <label>BNB:<input type="number" class="exchange__input" value="0.0" id="exchange-bnb"></label>
+                <div class="exchange__price">
+                    Price
+                    <span class="exchange__price-number">1 UAT = <span id="price">... BNB</span>
+                    
+                </span></div>
+                
+                <br>
+                
+                <span id="user-balance-swap" style="color: white">⠀⠀⠀⠀⠀</span>
+                <br>
+                <br>
+
+                <button class="btn-yellow" id="exchange-soda-bnb">SWAP</button>
+            </div>
+            <img class="exchange__bg" src="https://uat.bar/img\EXCHANGE.png" alt="">
+        </section>
+
+        <section class="lottery">
+            <div class="lottery__inner">
+
+                <div class="lottery__left">
+                    <h2 class="lottery__title en-translate">THE UAT LOTTERY</h2>
+                    
+                    <div class="lottery__text en-translate mobile--dnone">
+                        <p>UAT is used to enter a lottery on WINE DEFI. Each lottery session takes 12 hours. 10% of each collection of rewards in the pools goes towards buying tickets. After 12 hours, the contract chooses the winner and pays him 90% of the game`s pot</p>
+                       
+                    </div>
+
+                    
+                    <div class="lottery__progress">
+                        <div class="lottery__progress-line"></div>
+                    </div>
+                    <div class="lottery__time en-translate" id="timer">00h, 00m <span>Until lottery ends</span></div>
+                    
+
+                    <div class="lottery__balance">
+                        <h3 class="lottery__balance-title en-translate">YOUR BALANCE AVAILABLE FOR WITHDRAWAL</h3>
+                        
+                        <div class="lottery__balance-wrap">
+                            <div class="lottery__balance-number" id="lottery-rewards">...</div>
+                            <button class="lottery__balance-btn btn-yellow en-translate" id="withdraw-lottery">CLAIM</button>
+                            
+                        </div>
+                    </div>
+
+                    <div class="lottery__winnum">
+                        <h3 class="lottery__winnum-title en-translate">TOTAL PARTICIPANTS</h3>
+                        
+                        <div class="lottery__winnum-inner">
+                            <div class="lottery__winnum-ball" id="number_1">0</div>
+                            <div class="lottery__winnum-ball" id="number_2">0</div>
+                            <div class="lottery__winnum-ball" id="number_3">0</div>
+                            <div class="lottery__winnum-ball" id="number_4">0</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="lottery__right">
+
+                    <div class="lottery__total">
+                        <div class="lottery__round en-translate">ROUND: <span id="lottery-round">...</span></div>
+                        
+                        <div class="lottery__pot">
+                            <img class="lottery__pot-img" src="https://uat.bar/img\POT&#32;WINE&#32;2.png" style="width: 80px; height: 80px;">
+                            <div class="lottery__pot-inner">
+                                <h3 class="lottery__pot-title en-translate">Total pot</h3>
+                                
+                                <div class="lottery__pot-number" id="lottery-pot">... <span>UAT</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lottery__ticket">
+                        <div class="lottery__ticket-inner">
+                            <img class="lottery__ticket-img" src="https://uat.bar/img\tickets.png" alt="">
+                            <div class="lottery__ticket-text">
+                                <h3 class="lottery__ticket-title en-translate">YOUR TICKETS FOR THIS ROUND</h3>
+                                
+                                
+                                <div class="lottery__ticket-number" id="user-tickets">...</div>
+                            </div>
+                        </div>
+                        <button class="lottery__ticket-btn-left " type="button"><span class="en-translate">YOUR CHANCE</span></button>
+                        
+                        <button class="lottery__ticket-btn-right btn-yellow" id="user-chance">...%</button>
+                        <img class="lottery__bottle" src="https://uat.bar/img\bottle-lottery.png" alt="">
+                    </div>
+
+                    <div class="lottery__lastwin">
+                        <h3 class="lottery__lastwin-title en-translate">LAST WINNERS</h3>
+                        
+                        
+                        <div class="lottery__lastwin-inner">
+                            <div class="lottery__lastwin-col" id="winners-adresses">
+                                ...
+                            </div>
+                            <div class="lottery__lastwin-col" id="winners-pots">
+                                ...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <div class="modal fade" id="modal__referral" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+                <div class="modal-body">
+
+                    <h2 class="modal__banners-title en-translate">REFERRAL PROGRAM</h2>
+                    
+
+                    <div class="modal__referral-inner">
+                        <div class="modal__referral-col">
+                            1- level 15%<br>
+                            2- level 15%<br>
+                            3- level 8%<br>
+                            4- level 8%<br>
+                            5- level 6%<br>
+                            6- level 5%<br>
+                            7- level 5%<br>
+                            8- level 5%<br>
+                            9- level 4%<br>
+                            10- level 4%<br>
+                        </div>
+                        <div class="modal__referral-col">
+                            11- level 4%<br>
+                            12- level 3%<br>
+                            13- level 3%<br>
+                            14- level 3%<br>
+                            15- level 2%<br>
+                            16- level 2%<br>
+                            17- level 2%<br>
+                            18- level 1%<br>
+                            19- level 1%<br>
+                            20- level 1%<br>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modal__buy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog-buy">
+            <div class="modal-content modal__content-buy">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="modal__buy-title">buying a ticket</h2>
+                    <div class="modal__buy-txt">Indicate the number of tickets:</div>
+                    <input class="modal__buy-input" step="0.1" type="number">
+                    <button class="modal__buy-btn">Buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script> -->
+    <script src="https://uat.bar/js\bootstrap.min.js?v=1.0"></script>
+    <script src="https://uat.bar/js\tsparticles.min.js?v=1.0"></script>
+    <script src="https://uat.bar/js\settings-bg.js?v=1.0"></script>
+    <script src="https://uat.bar/js\script.js?v=1.0"></script>
+    <script src="https://uat.bar/js\web3.min.js?v=1.0"></script>
+    <script src="https://uat.bar/js\main.js?v=1.0"></script>
+    <script src="https://uat.bar/js\iziToast.min.js?v=1.0"></script>
+    
+
+
+</body>
+
+</html>
