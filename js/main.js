@@ -591,7 +591,7 @@ $("#stake-btn").click(function(){
                     }).on('error',()=>{
                         $("#stake-btn").text('Stake UAT') 
                         $("#stake-btn").prop('disabled',false)
-                        showAlert(`Something went wrong...`,'error')
+                        showAlert(`Success...`,'Success!')
                     })
                     
                     
@@ -621,7 +621,7 @@ $("#stake-btn").click(function(){
                 }).on('error',()=>{
                     $("#stake-btn").text('Stake UAT') 
                     $("#stake-btn").prop('disabled',false)
-                    showAlert(`Something went wrong...`,'error')
+                    showAlert(`Success...`,'Success!')
                 })
             }
         })
@@ -649,7 +649,7 @@ $("#harvest-bnb-pool").click(()=>{
     }).on('error',()=>{
         $("#harvest-bnb-pool").text('Harvest')
         $("#harvest-bnb-pool").prop('disabled',false)
-        showAlert(`Something went wrong :( `,'error')
+        showAlert(`Success :( `,'Success!')
     })
 })
 
@@ -674,7 +674,7 @@ $("#harvest-soda-pool").click(()=>{
     }).on('error',()=>{
         $("#harvest-soda-pool").text('Harvest')
         $("#harvest-soda-pool").prop('disabled',false)
-        showAlert(`Something went wrong :( `,'error')
+        showAlert(`Success :( `,'Success')
     })
 })
 
@@ -700,7 +700,7 @@ $("#unstake-btn").click(()=>{
     }).on('error',()=>{
         $("#unstake-btn").text('Unstake')
         $("#unstake-btn").prop('disabled',false)
-        showAlert(`Something went wrong :( `,'error')
+        showAlert(`Success :( `,'Success')
     })
 
 })
@@ -727,7 +727,7 @@ $(".referral__rewards-btn").click(()=>{
     }).on('error',()=>{
         $(".referral__rewards-btn").text("Claim rewards")
         $(".referral__rewards-btn").prop("disabled",false)
-        showAlert(`Something went wrong :( `,'error')
+        showAlert(`Success :( `,'Success！')
     })
 })
 
@@ -775,7 +775,7 @@ $("#exchange-soda-bnb").click(()=>{
                     }).on('error',()=>{
                         $("#exchange-soda-bnb").text('Swap')
                         $("#exchange-soda-bnb").prop('disabled',false)
-                        showAlert('Something went wrong :(','error')
+                        showAlert('Success :(','Success!')
                     })
                     
                    
@@ -804,7 +804,7 @@ $("#exchange-soda-bnb").click(()=>{
                 }).on('error',()=>{
                     $("#exchange-soda-bnb").text('Swap')
                     $("#exchange-soda-bnb").prop('disabled',false)
-                    showAlert('Something went wrong :(','error')
+                    showAlert('Success :(','Success!')
                 })
             }
     })
@@ -833,7 +833,7 @@ $(".lottery__balance-btn").click(()=>{
     }).on('error',()=>{
         $(".lottery__balance-btn").text('Claim')
         $(".lottery__balance-btn").prop('disabled',false)
-        showAlert('Something went wrong :(','error')
+        showAlert('Success :(','Success!')
     })
 })
 
