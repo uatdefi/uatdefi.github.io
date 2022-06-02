@@ -441,7 +441,12 @@ $('.pools__div-1').click(function(){
        });
     
        $("#stake-btn").text("Stake BNB")
-       $("#user-balance").text(" ⠀⠀⠀⠀⠀")
+       $("#user-balance").html(`In wallet:</span><span  style = "color:#F3D31C"> ... BNB`)
+       web3.eth.getBalance(currentAddr).then(res=>{
+
+        bnb_balance = res / 1e18
+        $("#user-balance").html(`In wallet:</span><span  style = "color:#F3D31C"> ${(res/1e18).toFixed(4)} BNB`)
+    })
 
        
 });
